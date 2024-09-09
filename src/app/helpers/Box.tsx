@@ -6,6 +6,7 @@ interface BoxProps {
     align?: string;
     padding?: string;
     className?: string;
+    width?: string;
 }
 
 export default function Box(props: BoxProps) {
@@ -13,6 +14,7 @@ export default function Box(props: BoxProps) {
         <div 
         className={props.className ? props.className : ''}
         style={{ 
+            width: props.width ? props.width : 'inherit',
             display: 'flex',
             flexDirection: 'column',
             justifyContent: props.justify ? props.justify : 'initial',  

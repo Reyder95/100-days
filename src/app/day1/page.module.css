@@ -1,0 +1,46 @@
+.card {
+    box-shadow: 0.5px 3px 5px #888888;
+    border-radius: 5px;
+    box-sizing: border-box !important;
+}
+
+.innerBox {
+    margin-top: 10px !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    box-sizing: border-box !important;
+}
+
+.descriptionBox {
+    text-align: center;
+    margin-top: 15px;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    box-sizing: border-box !important;
+}
+
+.headerName {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    box-sizing: border-box !important;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.header {
+    background-color: black;
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.body {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}

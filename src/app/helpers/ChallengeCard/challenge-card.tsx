@@ -7,11 +7,11 @@ interface CardProps {
 
 export default function ChallengeCard(props: CardProps) {
     return (
-        <Box className="challengeCard" align="center">
+        <Box className="challengeCard" padding='5px' align="center">
             <Box>
                 <strong>Day {props.day}</strong>
             </Box>
-            <Box>
+            <Box padding="6px">
                 {props.title}
             </Box>
         </Box>
