@@ -7,19 +7,18 @@ export default function Home() {
     <div>
       <Row>
         <Col cols={12} justify="center" align="center">
-          <ChallengeCard/>
+          <ChallengeCard
+            day={1}
+            title="Profile Card"
+          />
         </Col>
         <Col cols={12} justify="center" align="center">
-          <ChallengeCard/>
         </Col>
         <Col cols={12} justify="center" align="center">
-          <ChallengeCard/>
         </Col>
         <Col cols={12} justify="center" align="center">
-          <ChallengeCard/>
         </Col>
         <Col cols={12} justify="center" align="center">
-          <ChallengeCard/>
         </Col>
       </Row>
     </div>

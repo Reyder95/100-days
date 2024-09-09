@@ -1,14 +1,19 @@
+import Box from "../Box";
 
 interface CardProps {
     day: number;
     title: string;
-    route: string;
 }
 
-export default function ChallengeCard() {
+export default function ChallengeCard(props: CardProps) {
     return (
-        <div className="challengeCard">
-            
-        </div>
+        <Box className="challengeCard" align="center">
+            <Box>
+                <strong>Day {props.day}</strong>
+            </Box>
+            <Box>
+                {props.title}
+            </Box>
+        </Box>
     )
 }
