@@ -3,6 +3,9 @@
     flex-direction: row;
 }
 
-.col {
-    flex-grow: 1;
+.challengeCard {
+    box-shadow: 0.5px 3px 5px #888888;
+    padding: 5px;
+    border-radius: 5px;
+    width: 50%;
 }
