@@ -17,7 +17,7 @@ export default function ChallengeCard(props: ChallengeCardProps) {
             <CardContent>
                 <Typography fontWeight="600" textAlign="center">Day {props.day}</Typography>
                 <Typography marginTop="10px" textAlign="center">{props.title ? props.title : "To Be Done"}</Typography>
-                <Button disabled={!props.title} onClick={() => router.push(`/day${props.day}`)} variant="contained" sx={{ marginTop: "10px" }} fullWidth>Go</Button>
+                <Button disabled={!props.title} onClick={() => router.push(`/days/day${props.day}`)} variant="contained" sx={{ marginTop: "10px" }} fullWidth>Go</Button>
             </CardContent>
         </Card>
     )
