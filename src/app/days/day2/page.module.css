@@ -19,3 +19,12 @@
     opacity: 1.0;
     transition: 0.2s;
 }
+
+.link {
+    color: blue;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
