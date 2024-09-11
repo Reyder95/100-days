@@ -1,6 +1,6 @@
 'use client'
 
-import { Box, Button, Chip, Container, Grid2, Typography } from "@mui/material";
+import { Box, Button, Chip, Container, Grid2, Rating, Typography } from "@mui/material";
 import styles from './page.module.css'
 import { useState } from "react";
 
@@ -21,6 +21,7 @@ export default function Day2() {
             sm: "500px",
             md: "1200px"
         } }}>
+            <Typography marginBottom="25px" variant="h4" fontWeight="600">CLOCKWORKS TRACER - Return To Forsetia [8 Track Album]</Typography>
             <Grid2 container spacing={2}>
                 <Grid2 size={{ xs: 12, md: 1 }}>
                     {
@@ -61,6 +62,29 @@ export default function Day2() {
                         alt="Shop Image"
                         src={`/images/${imageList[selectedImageIndex]}`}
                     />
+                    <Box style={{
+                        backgroundColor: '#D9D9D9',
+                        width: '86%',
+                        borderRadius: '3px',
+                        padding: '10px'
+                    }}
+                    sx={{
+                        marginLeft: {
+                            xs: 'auto',
+                            md: 0
+                        },
+                        marginRight: {
+                            xs: 'auto',
+                            md: 0
+                        }
+                    }}
+                    >
+                        <Box textAlign="right">
+                            <Rating name="read-only" value={4.4} readOnly precision={0.5}/>
+                            <Typography variant="body1" fontWeight="600">4.5 Rating <span className={styles.link}>See Reviews</span></Typography>
+                        </Box>
+
+                    </Box>
                 </Grid2>
                 <Grid2 sx={{
                     marginLeft: {
