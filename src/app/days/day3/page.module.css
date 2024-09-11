@@ -1,0 +1,9 @@
+.buttonItem {
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.buttonItem:hover {
+    background-color: #f0f0f0;
+    transition: 0.2s;
+}
