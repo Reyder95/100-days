@@ -21,6 +21,7 @@ export default function Home() {
         <Grid2 size={2.4}>
           <ChallengeCard
           day={3}
+          title="Mobile Navigation"
           />
         </Grid2>
         <Grid2 size={2.4}>
