@@ -1,0 +1,21 @@
+.individualSong {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    transition: 0.2s;
+}
+
+.individualSong:hover {
+    background-color: rgba(200, 200, 200, 0.5);
+    transition: 0.2s;
+}
+
+.sideBox {
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
+.sideBox:hover {
+    opacity: 1.0;
+    transition: 0.2s;
+}
