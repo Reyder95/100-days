@@ -11,7 +11,7 @@ interface CardProps {
 
 export default function ProfileCard(props: CardProps) {
     return (
-            <Container maxWidth="xs">
+            <Container sx={{ marginTop: '30px' }} maxWidth="xs">
             <Card>
                 <CardContent sx={{ padding: 0 }}>
                     <Box display='flex' justifyContent="center" sx={{ backgroundColor: '#973350', paddingTop: '20px', paddingBottom: '20px' }}>
