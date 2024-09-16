@@ -6,7 +6,15 @@ import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 export default function Day5() {
     return (
         <Container sx={{ position: 'relative' }} maxWidth="xl">
-            <Box sx={{ backgroundColor: 'white', padding: 2, position: 'absolute', top: 50, left: '50%', transform: 'translateX(-50%)' }}>
+            <Box sx={{ backgroundColor: 'white', padding: 2, 
+                position: {
+                    md: 'absolute',
+                    xs: 'relative'
+                }, 
+                top: {
+                    md: 50,
+                    xs: 0
+                }, left: '50%', transform: 'translateX(-50%)' }}>
                 <Box sx={{ display: 'flex', alignItems: 'center' }}>
                     <Rating
                     value={4}
@@ -14,19 +22,22 @@ export default function Day5() {
                     />
                     <Typography marginLeft="10px" variant="subtitle2">(165)</Typography>
                 </Box>
-                <Typography fontWeight="600" variant="h4">Sweet Iced Coffee With <br/>Coconut Milk</Typography>
+                <Typography fontWeight="600" variant="h4">Sweet Iced Coffee With Coconut Milk</Typography>
             </Box>
             <Grid2 container spacing={2}>
-                <Grid2 size={6}>
+                <Grid2 size={{ xs: 12, md: 6 }}>
                     <Box>
-                        <Box sx={{ overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                        <Box sx={{ height: { md: '100%', xs: '500px' }, overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <img style={{ objectFit: 'cover', width: '100%', height: '100vh', objectPosition: 'center' }} src="/images/coconut-coffee.jpg"/>
                         </Box>
                     </Box>
 
                 </Grid2>
-                <Grid2 sx={{ marginLeft: '20px' }} size={5}>
-                    <Box sx={{ marginTop: 25 }}>
+                <Grid2 sx={{ marginLeft: { md: '20px', xs: 0 } }} size={{ xs: 12, md: 5, }}>
+                    <Box sx={{ marginTop: {
+                        md: 25,
+                        xs: 2
+                    } }}>
                         <Box sx={{ display: 'flex', alignItems: 'center' }} >
                             <Box sx={{ display: 'flex', alignItems: 'center' }}>
                                 <AccessAlarmIcon/>
@@ -36,7 +47,7 @@ export default function Day5() {
                                 </Box>
                             </Box>
 
-                            <Box sx={{ marginLeft: '30px', marginRight: '30px', display: 'flex', alignItems: 'center' }}>
+                            <Box sx={{ marginLeft: { xs: '5px', md: '30px' }, marginRight: { xs: '5px', md: '30px' }, display: 'flex', alignItems: 'center' }}>
                                 <PercentIcon/>
                                 <Box marginLeft="10px">
                                     <Typography fontWeight="600">Level</Typography>
