@@ -33,6 +33,7 @@ export default function Home() {
         <Grid2 size={2.4}>
           <ChallengeCard
           day={5}
+          title="Recipe"
           />
         </Grid2>
       </Grid2>
