@@ -36,6 +36,33 @@ export default function Home() {
           title="Recipe"
           />
         </Grid2>
+
+        <Grid2 size={2.4}>
+          <ChallengeCard
+          day={6}
+          title="Image Carousel"
+          />
+        </Grid2>
+        <Grid2 size={2.4}>
+          <ChallengeCard
+            day={7}
+          />
+        </Grid2>
+        <Grid2 size={2.4}>
+          <ChallengeCard
+          day={8}
+          />
+        </Grid2>
+        <Grid2 size={2.4}>
+          <ChallengeCard
+          day={9}
+          />
+        </Grid2>
+        <Grid2 size={2.4}>
+          <ChallengeCard
+          day={10}
+          />
+        </Grid2>
       </Grid2>
     </Container>
       // <Row>
