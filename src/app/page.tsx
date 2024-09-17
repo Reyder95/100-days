@@ -40,6 +40,7 @@ export default function Home() {
         <Grid2 size={2.4}>
           <ChallengeCard
           day={6}
+          title="Image Carousel"
           />
         </Grid2>
         <Grid2 size={2.4}>
